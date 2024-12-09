@@ -16,10 +16,10 @@ static int add (int a,int b){
 	<p>1 + 2 = <%= add(1,2) %></p>
 	<p>1 + 2 = <%= add(3,4) %></p>
 	
-	<%! static int countA=0;%>
+	<%! static int countA=0; %>
 	<%
 	int countB=0;
-	countA++:
+	countA++;
 	countB++;
 	%>
 	
