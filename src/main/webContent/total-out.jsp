@@ -16,6 +16,6 @@
 %>
 
 <%=price %>円x<%=count %>個＋送料<%=delivery %>円＝
-<%price*count+delivery %>円
+<%=price*count+delivery %>円
 </body>
 </html>
