@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%page errorPage="total-error.jsp" %>
+<%@page errorPage="total-error.jsp" %>
 <%
 	request.setCharacterEncoding("UTF-8");
 	int price=Integer.parseInt(request.getParameter("price"));
